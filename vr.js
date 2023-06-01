@@ -1,0 +1,1 @@
+var imagenes=['img/ch1.jpg','img/ch2.jpg','img/ch3.jpg']

@@ -1,0 +1,162 @@
+
+body{
+    font-family:'American Typewriter';
+}
+header{
+}
+#barnav{
+   
+    
+    
+    position: relative
+    ;
+    width: 1080px;
+    height: 100px;
+    padding-top: 50px;
+    margin: 0 auto;
+    
+}
+#menunav{
+    position: absolute; 
+    top:75px;
+    right: 50px;
+   
+}
+
+#menunav li{
+    position: relative;
+    display: inline;
+    margin: 0 0 0 50px;
+  
+}
+
+#menunav a{
+    text-transform: uppercase;
+    
+   color: #0A4780;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+#menunav a:hover{
+    color: #F0B332;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.imglogo{
+    position: relative;
+}
+.carrusel-home{
+    width: 100%;
+    top: 1px;
+    
+    position: relative;
+    margin: 0 auto;
+
+}
+.imgcarrusel{
+    width: 100%;
+    height: 550px;
+   
+
+}
+.service{
+    margin-top: 70px;
+    position: relative; 
+    display: flex; /* Agregamos display: flex para alinear los elementos en una fila */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan a una nueva línea si no caben en una sola fila */
+    align-items: stretch; /* Ajusta la altura de los elementos li para que coincida con el elemento más alto */
+    justify-content: center;
+    
+
+}
+
+.service li{
+    flex: 1 0 24%; /* Asignamos un ancho del 24% y permitimos que se ajuste en función del espacio disponible */
+    text-align: center;
+    display: inline-block;
+   
+    width: 24%;
+    min-height: 250px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    padding: 30px 20px;
+    box-sizing: border-box;
+   
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.service li h3{
+    font-weight: bold;
+    margin-top: 10px;
+    color:#F0B332;
+
+
+}.service li p{
+    margin-top: 10px;
+    color: #0A4780;
+    
+}
+.service ul{
+    margin-top: 50px;
+}
+
+#icono-service{
+    width: 80px;
+
+}
+
+.service h2{
+    text-align: center;
+    color: #0A4780;
+    font-size: 30px;
+    
+}
+.clientes{
+    position: relatiave;
+    margin-top: 60px;
+    
+    display: flex; /* Agregamos display: flex para alinear los elementos en una fila */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan a una nueva línea si no caben en una sola fila */
+    align-items: stretch; /* Ajusta la altura de los elementos li para que coincida con el elemento más alto */
+    justify-content: center;
+
+}
+
+.clientes li{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    
+    vertical-align: top;
+    margin-left: 40px;
+    margin-top: 60px;
+    
+    padding: 30px 20px;
+    box-sizing: border-box;
+   
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    
+}
+
+#img-clientes{
+    position: relative;
+    width: 100%;
+    
+}
+.clientes h2{
+    text-align: center;
+    color: #0A4780;
+    font-size: 30px;
+    
+    
+
+}
